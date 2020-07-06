@@ -1,0 +1,23 @@
+
+.Net Framework:		-	Version 1.0 -> 4.8 bezeichnet man als das klassiche .NET Framework 
+					-	Ab Version 4.8 wird unter der klassichen Variante keine Weiterentwicklung erfolgen
+
+
+
+
+
+
+Ab .NET Core wird es Dokufreundlicher :-) 
+Was kommt nach 4.8: -> .NET Core Framework: Neuentwicklung des Frameworks (Entwicklungsname war/ist .NET Core)
+					-> Aktuelle .NET Core Version 3.1
+
+
+.NET Framework 5.0 = .NET Core 
+
+________________________________________________________________________________________________________________
+
+
+Dependency Injection -> richtiges arbeiten mit interfaces 
+
+
+Alternatives Beispiel zu ASP.NET MVC5 + EF6 (CodeFirst) -> https://docs.microsoft.com/de-de/ef/ef6/modeling/code-first/workflows/new-database
