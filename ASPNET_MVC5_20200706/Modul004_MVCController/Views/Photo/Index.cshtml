@@ -46,9 +46,10 @@
             @Html.DisplayFor(modelItem => item.Owner)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.PhotoID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.PhotoID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.PhotoID })
+            @Html.ActionLink("Bearbeiten", "Edit", new { id=item.PhotoID }) |
+            @Html.ActionLink("DetailAnsicht", "Details", new { id=item.PhotoID }) |
+            @Html.ActionLink("Löschen", "Delete", new { id=item.PhotoID })
+            @Html.ActionLink("Mein Erfundener Button", "MachWasMethode");
         </td>
     </tr>
 }

@@ -21,3 +21,7 @@ Dependency Injection -> richtiges arbeiten mit interfaces
 
 
 Alternatives Beispiel zu ASP.NET MVC5 + EF6 (CodeFirst) -> https://docs.microsoft.com/de-de/ef/ef6/modeling/code-first/workflows/new-database
+
+
+
+Herausfinden was ist ->new { enctype = "multipart/form-data" }))

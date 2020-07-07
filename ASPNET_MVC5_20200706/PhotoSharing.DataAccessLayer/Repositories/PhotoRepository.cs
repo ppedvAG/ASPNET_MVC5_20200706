@@ -12,7 +12,15 @@ namespace PhotoSharing.DataAccessLayer.Repositories
     public class PhotoRepository : IPhotoRepository
     {
         private PhotoSharingDB ctx = new PhotoSharingDB();
-        
+
+        public void Delete(int Id)
+        {
+            Photo photoToDelete = ctx.Photos.SingleOrDefault(n => n.PhotoID == Id);
+
+            ctx.Photos.Remove(photoToDelete);
+            ctx.SaveChanges();
+        }
+
         public IList<Photo> GetAll()
         {
             return ctx.Photos.ToList();

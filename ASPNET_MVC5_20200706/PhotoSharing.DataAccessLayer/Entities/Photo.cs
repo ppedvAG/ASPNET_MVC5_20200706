@@ -14,6 +14,7 @@ namespace PhotoSharing.DataAccessLayer.Entities
         public int PhotoID { get; set; }
 
         //Auto Property  -> die Variable title wird zur Laufzeit hinzugefügt
+        [Required (ErrorMessage = "Ohne Titel ist doof")]
         public string Title { get; set; }
 
         [DisplayName("Picture")] //Display - DataAnnotation
@@ -24,6 +25,8 @@ namespace PhotoSharing.DataAccessLayer.Entities
 
 
         [DataType(DataType.MultilineText)] //UI zeigt anstatt eine einfache TextBox eine Multitextbox an. 
+        [MinLength(5, ErrorMessage = "5 Zeichen!!! Mindestens :-)")]
+
         public string Description
         {
             get

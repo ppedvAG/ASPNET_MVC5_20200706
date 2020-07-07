@@ -1,0 +1,33 @@
+Modul05: (Show-Beispiel) (20 Minuten)
+- PartialViews
+- DynamicViews
+
+
+
+Modul09 -> Caching 
+Modul12 -> State Management ( 1 Stunde) 
+Modul06 -> Exceptino Handling + Fehlerseite erstellen (30 Minuten + eventuell mehr)
+Modul07 -> Routing Config (15 Minuten, Show-Beispiel) 
+Modul13 -> WebAPI + Aufruf einer WebAPI (1,5 Stunden)
+Modul11 -> Authentifizierung:  (Registrieren von Benutzer, Rollen zuweisen, Berechtigungen herausfinden)
+
+
+
+
+
+Modul08 -> Using Layouts (Bootstrap) + CSS + ViewPort
+
+
+Modul10 -> JavaScript + jQuery???? 
+        -> Bootstrap
+
+
+Modul14 -> SignalR (Optional) 
+
+Alternativ:
+
+SiteMapProvider (Alternatives Thema und auch nur Theorie)
+Using Ajax und PartialView (Optional)
+
+
+ 

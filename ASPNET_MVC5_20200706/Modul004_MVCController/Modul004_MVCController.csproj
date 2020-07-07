@@ -129,6 +129,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PhotoController.cs" />
+    <Compile Include="Controllers\PhotosGeneratedController.cs" />
     <Compile Include="Filter\SimpleActionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -175,6 +176,12 @@
     <Content Include="Views\Photo\Create.cshtml" />
     <Content Include="Views\Photo\Details.cshtml" />
     <Content Include="Views\Photo\Edit.cshtml" />
+    <Content Include="Views\PhotosGenerated\Create.cshtml" />
+    <Content Include="Views\PhotosGenerated\Delete.cshtml" />
+    <Content Include="Views\PhotosGenerated\Details.cshtml" />
+    <Content Include="Views\PhotosGenerated\Edit.cshtml" />
+    <Content Include="Views\PhotosGenerated\Index.cshtml" />
+    <Content Include="Views\Photo\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

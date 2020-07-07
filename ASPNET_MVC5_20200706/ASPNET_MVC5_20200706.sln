@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul003_MVCModel", "Modul0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCBD9EF8-857E-46F7-BCDE-39907436FC82}"
 	ProjectSection(SolutionItems) = preProject
+		Agenda_Mittwoch.txt = Agenda_Mittwoch.txt
 		Knowledge.txt = Knowledge.txt
 		LinkCollection.txt = LinkCollection.txt
 		Questions.txt = Questions.txt

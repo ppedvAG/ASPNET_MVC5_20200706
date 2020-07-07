@@ -21,5 +21,8 @@ namespace PhotoSharing.DataAccessLayer.Repositories
 
 
         void Update(Photo modifiedPhoto);
+
+
+        void Delete(int Id);
     }
 }

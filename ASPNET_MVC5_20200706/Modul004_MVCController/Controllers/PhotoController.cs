@@ -4,6 +4,7 @@ using PhotoSharing.DataAccessLayer.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
@@ -86,9 +87,6 @@ namespace Modul004_MVCController.Controllers
         [HttpPost]
         public ActionResult Create(Photo photo) //Photo wird via Default Model-Binding befüllt -> Alternatives Beispiel siehe Modul003-> ModelBinding
         {
-            
-
-
             if (ModelState.IsValid)
             {
                 //Speichere Foto in die DB
@@ -102,17 +100,20 @@ namespace Modul004_MVCController.Controllers
         }
 
 
-
-        public ActionResult Edit (int? id)
+        //public ActionResult Edit(int? id)
+        public ActionResult Edit(int? id)
         {
-            if (id.HasValue == false)
-                return HttpNotFound();
-        
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
             Photo photo = repo.GetPhotoById(id.Value);
 
             return View(photo);
         }
 
+        [HttpPost]
         public ActionResult Edit (Photo photo)
         {
             repo.Update(photo);
@@ -152,7 +153,44 @@ namespace Modul004_MVCController.Controllers
 
         public ActionResult Details(int id)
         {
-            return View();
+            Photo photo = repo.GetPhotoById(id);
+            return View(photo);
+        }
+
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            Photo photo = repo.GetPhotoById(id.Value);
+
+            return View(photo);
+        }
+
+
+
+        //[HttpPost]
+        //public ActionResult Delete(int id)
+        //{
+        //    repo.Delete(id);
+        //    return RedirectToAction("Index");
+        //}
+
+        [HttpPost, ActionName("Delete")]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            repo.Delete(id);
+            return RedirectToAction("Index");
+        }
+
+
+       
+        public ActionResult MachWasMethode()
+        {
+            //Hier kannst du alles zusammenprogrammieren. 
+            return RedirectToAction("Index", "Home");
         }
         #endregion
 

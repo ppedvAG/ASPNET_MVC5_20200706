@@ -9,4 +9,3 @@ C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\PhotoSharing.DataAcc
 C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\PhotoSharing.DataAccessLayer\obj\Debug\PhotoSharing.DataAccessLayer.csproj.CopyComplete
 C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\PhotoSharing.DataAccessLayer\obj\Debug\PhotoSharing.DataAccessLayer.dll
 C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\PhotoSharing.DataAccessLayer\obj\Debug\PhotoSharing.DataAccessLayer.pdb
-C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\PhotoSharing.DataAccessLayer\obj\Debug\PhotoSharing.DataAccessLayer.csprojAssemblyReference.cache
