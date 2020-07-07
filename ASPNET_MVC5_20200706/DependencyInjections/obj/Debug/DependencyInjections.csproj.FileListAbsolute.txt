@@ -1,0 +1,2 @@
+C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\obj\Debug\DependencyInjections.csprojAssemblyReference.cache
+C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\obj\Debug\DependencyInjections.csproj.CoreCompileInputs.cache
