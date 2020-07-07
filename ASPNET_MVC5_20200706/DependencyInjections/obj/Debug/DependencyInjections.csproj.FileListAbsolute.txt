@@ -1,2 +1,7 @@
 C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\obj\Debug\DependencyInjections.csprojAssemblyReference.cache
 C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\obj\Debug\DependencyInjections.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\bin\Debug\DependencyInjections.exe.config
+C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\bin\Debug\DependencyInjections.exe
+C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\bin\Debug\DependencyInjections.pdb
+C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\obj\Debug\DependencyInjections.exe
+C:\Aktueller Kurs\ASPNET_MVC5_20200706\ASPNET_MVC5_20200706\DependencyInjections\obj\Debug\DependencyInjections.pdb

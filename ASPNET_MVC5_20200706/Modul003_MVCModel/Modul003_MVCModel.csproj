@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CommentarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PhotoController.cs" />
     <Compile Include="Global.asax.cs">
@@ -140,6 +141,8 @@
     <Compile Include="Models\PhotoSharingDB.cs" />
     <Compile Include="Models\PhotoSharingInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CommentRepository.cs" />
+    <Compile Include="Repository\ICommentRepository.cs" />
     <Compile Include="Validation\LargerThanValidationAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -183,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Commentar\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
