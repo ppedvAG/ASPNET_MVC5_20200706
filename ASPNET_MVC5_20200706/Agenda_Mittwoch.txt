@@ -7,8 +7,8 @@ Modul05: (Show-Beispiel) (20 Minuten)
 Modul09 -> Caching (fertig)
 Modul12 -> State Management ( 1 Stunde)  (fertig) 
 Modul07 -> Routing Config (15 Minuten, Show-Beispiel) (wird nachgesendet)
-Modul11 -> Authentifizierung:  (Registrieren von Benutzer, Rollen zuweisen, Berechtigungen herausfinden)
-Modul06 -> Exceptino Handling + Fehlerseite erstellen (30 Minuten + eventuell mehr)
+Modul11 -> Authentifizierung:  (Registrieren von Benutzer, Rollen zuweisen, Berechtigungen herausfinden) (fertig) 
+Modul06 -> Exceptino Handling + Fehlerseite erstellen (30 Minuten + eventuell mehr) (fertig)
 
 Modul13 -> WebAPI + Aufruf einer WebAPI (1,5 Stunden)
 

@@ -28,3 +28,7 @@ Herausfinden was ist ->new { enctype = "multipart/form-data" }))
 
 MVC 5-> Attribute https://www.c-sharpcorner.com/UploadFile/ff2f08/attribute-routing-in-Asp-Net-mvc-5-0/
 
+
+
+Custom ErrorPage -> https://dzone.com/articles/make-custom-error-pages-work-in-aspnet-mvc-5
+
