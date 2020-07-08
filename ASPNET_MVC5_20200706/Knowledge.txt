@@ -25,3 +25,6 @@ Alternatives Beispiel zu ASP.NET MVC5 + EF6 (CodeFirst) -> https://docs.microsof
 
 
 Herausfinden was ist ->new { enctype = "multipart/form-data" }))
+
+MVC 5-> Attribute https://www.c-sharpcorner.com/UploadFile/ff2f08/attribute-routing-in-Asp-Net-mvc-5-0/
+

@@ -1,0 +1,24 @@
+﻿@model Modul005_MVCViews.Models.ErdeVM
+
+@{
+    ViewBag.Title = "PartialSample2";
+    Layout = "~/Views/Shared/_LayoutMembership.cshtml";
+}
+
+<h2>PartialSample2</h2>
+
+<ul>
+    @foreach (var item in Model.Personen)
+    {
+        <li>
+            Vorname: @item.Vorname 
+            Nachname: @item.Name
+        </li>
+    }
+</ul>
+
+
+<div>
+    @Html.Partial("_PartialClockView")
+</div>
+

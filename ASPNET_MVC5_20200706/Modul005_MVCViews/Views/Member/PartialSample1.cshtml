@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<h2>Membership-Index</h2>
+<p>Erste Variante</p>
+@Html.Partial("_PartialClockView")
+<p>Zweite Ausgabe:</p>
+@{
+    Html.RenderPartial("_PartialClockView");
+}
+
+@* Ab ASP.NET Core -> <partial name="~/Views/Shared/_PartialClockView.cshtml" />*@
+
+
+@*https://stackoverflow.com/questions/20799658/how-can-i-pass-parameters-to-a-partial-view-in-mvc-4*@
+@*https://stackoverflow.com/questions/5248183/html-partial-vs-html-renderpartial-html-action-vs-html-renderaction*@

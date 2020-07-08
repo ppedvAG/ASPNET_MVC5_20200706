@@ -1,0 +1,21 @@
+﻿@using Modul005_MVCViews.Models;
+
+<h1>Zeige alle Tiere an</h1>
+
+@{
+    ErdeVM erde = (ErdeVM)ViewData["ErdeVM"];
+    //ErdeVM erde = ViewData["ErdeVM"] as ErdeVM;
+}
+
+
+
+<ul>
+    @foreach (var item in erde.Tiere)
+    {
+        <li>
+            Name: @item.Name
+            Lebenserwartung: @item.Lebenserwartung
+        </li>
+    }
+</ul>
+

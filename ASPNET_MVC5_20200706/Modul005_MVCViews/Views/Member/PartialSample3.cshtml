@@ -1,0 +1,49 @@
+﻿@using Modul005_MVCViews.Models;
+@{
+    ViewBag.Title = "PartialSample3";
+    Layout = "~/Views/Shared/_LayoutMembership.cshtml";
+}
+
+<h2>PartialSample3</h2>
+
+@{
+    ErdeVM erde = ViewData["ErdeVM"] as ErdeVM;
+
+}
+
+
+
+<ul>
+    @foreach (var item in erde.Personen)
+    {
+        <li>
+            Vorname: @item.Vorname
+            Nachname: @item.Name
+        </li>
+    }
+</ul>
+
+
+<p>Aufruf meiner Tieransich - Partial View</p>
+
+Variante1
+@Html.Partial("_ShowTiere", ViewData)
+
+
+Variante
+
+<button type="button" id="button1">Load Partial View</button>
+<div id="div2"></div>
+<div id="div1"></div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#div2").load('/Member/OnGetMyPartial');
+    })
+
+    $("#button1").on("click", function () {
+        $("#div1").load('/Member/OnGetMyPartial');
+    })
+</script>

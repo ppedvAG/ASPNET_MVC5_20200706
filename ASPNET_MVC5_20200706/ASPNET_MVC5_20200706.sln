@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul004_MVCController", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoSharing.DataAccessLayer", "PhotoSharing.DataAccessLayer\PhotoSharing.DataAccessLayer.csproj", "{88BA3274-0848-45CB-B887-A09537E3DF58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul005_MVCViews", "Modul005_MVCViews\Modul005_MVCViews.csproj", "{5C864C8F-3DE5-40E6-8E66-81B04A82DB4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Membership", "MVC_Membership\MVC_Membership.csproj", "{F84808F4-2626-4500-98A8-790F5926F5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,14 @@ Global
 		{88BA3274-0848-45CB-B887-A09537E3DF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88BA3274-0848-45CB-B887-A09537E3DF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88BA3274-0848-45CB-B887-A09537E3DF58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C864C8F-3DE5-40E6-8E66-81B04A82DB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C864C8F-3DE5-40E6-8E66-81B04A82DB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C864C8F-3DE5-40E6-8E66-81B04A82DB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C864C8F-3DE5-40E6-8E66-81B04A82DB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84808F4-2626-4500-98A8-790F5926F5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84808F4-2626-4500-98A8-790F5926F5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84808F4-2626-4500-98A8-790F5926F5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84808F4-2626-4500-98A8-790F5926F5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

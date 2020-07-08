@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Modul005_MVCViews.Controllers.Artikel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMembership.cshtml";
+}
+
+<h2>Index</h2>
+
+
+
+<p>Ergebnis: </p>
+@foreach (Modul005_MVCViews.Controllers.Artikel artikel in Model)
+{
+    <p>@artikel.Name</p>
+    <p>@artikel.PublishDate</p>
+    <p>-----------------------</p>
+}
